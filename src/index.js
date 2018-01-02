@@ -1,23 +1,14 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import { ReactDOM, render } from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import styles from "./Styles/styles";
 
-import Navbar from "./components/Navbar";
-import ProductDisplay from "./components/ProductDisplay";
-// import Products from "./containers/Products";
+import App from "./Routes/Routes";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <ProductDisplay />
-      </div>
-    );
-  }
-}
+render(
+  <div>
+    <App />
+  </div>,
 
-ReactDOM.render(<App />, document.getElementById("app"));
+  document.getElementById("app")
+);

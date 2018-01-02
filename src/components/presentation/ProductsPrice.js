@@ -2,7 +2,6 @@ import React from "react";
 
 export default props => {
   const product = props;
-  console.log("props.price:", props.price);
   return <h4>{product.price}</h4>;
 };
 
