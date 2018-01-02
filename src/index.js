@@ -3,14 +3,21 @@ import ReactDOM from "react-dom";
 // import styles from "./Styles/styles";
 
 import Navbar from "./components/Navbar";
+import ProductDisplay from "./components/ProductDisplay";
+// import Products from "./containers/Products";
 
-const App = () => {
-  return (
-    <div>
-      {/* <h1>The Store</h1> */}
-      <Navbar />
-    </div>
-  );
-};
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <ProductDisplay />
+      </div>
+    );
+  }
+}
 
-ReactDOM.render(<App />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.getElementById("app"));

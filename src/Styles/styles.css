@@ -6,12 +6,7 @@
 }
 
 body {
-  /* background-color: yellow; */
 }
-
-/*------------------------------------*\
-NAVBAR
-\*------------------------------------*/
 
 .nav {
   width: 100%;
@@ -32,7 +27,6 @@ NAVBAR
 }
 
 .nav-item {
-  /* float: left; */
   text-align: center;
   display: inline-block;
   zoom: 1;
