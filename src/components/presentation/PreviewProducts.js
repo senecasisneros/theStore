@@ -1,21 +1,33 @@
 import React from "react";
+import { Container, Row, Col } from "reactstrap";
 
 export default props => {
   const product = props;
   return (
-    <div style={style.productPost}>
-      <h4>{product.type}</h4>
-      <img src={product.image} alt="" height="65" width="65" />
-      <p>{product.desc}</p>
+    <div className="card">
+      <img
+        className="card-img-top imgProduct"
+        src={product.image}
+        alt="Card image cap"
+      />
+      <div className="card-body">
+        <h5 className="card-title">{product.type}</h5>
+        <p className="card-text">{product.desc}</p>
+        <p className="card-text">{product.price}</p>
+        <a href="#" className="btn btn-primary">
+          More Details
+        </a>
+      </div>
     </div>
   );
 };
 
 const style = {
   productPost: {
-    padding: 16,
-    background: "f9f9f9",
-    border: "1px solid #ddd",
-    marginBottom: 24
+    // padding: 16,
+    // background: "f9f9f9",
+    // border: "1px solid #ddd",
+    // marginBottom: 24
+    // width: 20 + "em"
   }
 };
