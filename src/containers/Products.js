@@ -47,6 +47,18 @@ class Products extends Component {
           image: "https://dummyimage.com/mediumrectangle/222222/eeeeee",
           desc: "This is a Spoon",
           price: "$.50"
+        },
+        {
+          type: "Spoon",
+          image: "https://dummyimage.com/mediumrectangle/222222/eeeeee",
+          desc: "This is a Spoon",
+          price: "$.50"
+        },
+        {
+          type: "Spoon",
+          image: "https://dummyimage.com/mediumrectangle/222222/eeeeee",
+          desc: "This is a Spoon",
+          price: "$.50"
         }
       ]
     };

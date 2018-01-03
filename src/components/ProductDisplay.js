@@ -8,7 +8,7 @@ class ProductDisplay extends Component {
   render() {
     return (
       <div className="">
-        <h2>This is the ProductDisplay Component!</h2>
+        <h2>Products</h2>
         <Products />
       </div>
     );

@@ -60,5 +60,12 @@ body {
 }
 
 .products {
-  float: left;
+  /* float: left; */
+}
+
+.card {
+  width: 14rem;
+  text-align: center;
+  margin: 30px auto;
+  float: none;
 }

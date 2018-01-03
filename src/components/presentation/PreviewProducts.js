@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 export default props => {
   const product = props;
   return (
-    <div className="card">
+    <div className="card .mx-auto">
       <img
         className="card-img-top imgProduct"
         src={product.image}
