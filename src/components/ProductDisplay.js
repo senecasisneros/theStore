@@ -8,7 +8,6 @@ class ProductDisplay extends Component {
   render() {
     return (
       <div className="">
-        <h2>Products</h2>
         <Products />
       </div>
     );
